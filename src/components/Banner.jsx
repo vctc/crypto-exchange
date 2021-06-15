@@ -11,7 +11,7 @@ const Banner = () => (
           <h1 className="text-2xl text-center md:text-4xl font-bold pt-8 lg:text-5xl lg:text-left text-white">
             Fastest & secure platform to invest in crypto
           </h1>
-          <p className="pt-8 sm:text-xl sm:text-white lg:w-1/2 opacity-70">
+          <p className="py-8 sm:text-xl text-white  lg:w-1/2 opacity-70">
             Buy and sell cryptocurrencies, trusted by 10M wallets with over $30
             billion in transactions.
           </p>
