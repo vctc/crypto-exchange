@@ -1,8 +1,9 @@
+/* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 
 const About = () => (
-  <section className="text-gray-600 body-font bg-white ">
+  <section className="text-gray-600 body-font sm:mt-7 bg-white px-8 ">
     <div className="container px-5 py-24 mx-auto">
       <div className="text-center mb-20">
         <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
@@ -17,6 +18,7 @@ const About = () => (
           <div className="w-16 h-1 rounded-full bg-indigo-500 inline-flex" />
         </div>
       </div>
+
       <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
@@ -32,7 +34,8 @@ const About = () => (
               <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
             </svg>
           </div>
-          <div className="flex-grow">
+
+          <div className="flex-grow test-anim">
             <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
               Shooting Stars
             </h2>

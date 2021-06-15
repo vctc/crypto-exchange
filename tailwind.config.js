@@ -9,8 +9,14 @@ module.exports = {
           icon: '#3671E9',
           button: '#3671E9',
           white10: '#FFFFFF1A',
+          formbg: '#19193d',
+          formtext: '#5369a1',
         },
       },
+      backgroundImage: () => ({
+        'banner-bg': "url('assets/images/svg/banner.svg')",
+        'feature-bg': "url('assets/images/svg/features.svg')",
+      }),
     },
   },
   variants: {

@@ -1,12 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import 'animate.css/animate.min.css'
+import 'antd/dist/antd.css'
 import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className="bg-brand">
+      <App />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 )
